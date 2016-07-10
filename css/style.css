@@ -1,0 +1,47 @@
+body{
+  background-color:#cb9b99;
+}
+.twitchList{
+  border: 2px solid white;
+
+}
+.profileLogos{
+  display:relative;
+  wrap:both;
+  height: 6em;
+  border-radius: 100%;
+  border: 2px solid white;
+}
+.profileName{
+  padding-top: 1.25em;
+  font-family: 'Oswald', sans-serif;
+  font-size:1.5em
+}
+
+.online{
+  background-color:#99cb9b;
+  color:#fff;
+}
+#twitch-Title{
+  font-family: 'Indie Flower', cursive;
+  font-weight:bold;
+  font-size:4em;
+  color:#fff
+}
+#twitchNav{
+  background-color:#9b99cb !important;
+}
+.offline{
+  background-color:#b16966;
+  color:#fff;
+}
+.offline a{
+  color:#999;
+}
+@media(max-width:768px){
+  .twitchList{
+    text-align:center;
+    padding-top:2em;
+    padding-bottom:2em;
+  }
+}
